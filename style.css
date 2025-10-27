@@ -11,13 +11,16 @@ table {
   width: 60%;
   border:2px solid black;
 margin-left: 20px;  
-margin-top: 20px;
+margin-top: 20px;;
 }
 
 th {
-  background-color: lightcyan;
+  background-color:darkred;
+  color: white;
   font-size: large;
   border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
 }
 tr:hover{
   background-color: lightgray;
