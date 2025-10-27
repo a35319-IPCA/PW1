@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a  href="./index.html">Menu</a></li>
+            <li><a href="./entradas.html">Entradas</a></li>
+            <li><a href="./carne.html">Carne</a></li>
+            <li><a  href="./peixe.html">Peixe</a></li>
+            <li><a class="active" href="./form.html">Reservas</a></li>
+        </ul>
+    </nav> 
+
+    <h3 style="margin-left: 15px;">Formulário de Contacto:</h3>
+
+    <form method="post"style="margin-left: 15px;" >
+        <table style="border: 2px solid black; border-style: dotted;">
+        <tr>
+            <td class="default"><label for="name">Nome:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="date">Data da Reserva:</label></td>
+            <td><input type="datetime-local" id="datetime-local" name="date" min="2025-10-20T00:00" max="2025-10-31T00:00"value="2025-10-20T19:30" required></td>
+        </tr>
+        <tr>
+            <td><label for="guests">Número de Pessoas:</label></td>
+            <td><select name="nPessoas">
+            <option value="1">1 Pessoa</option>
+            <option value="2">2 Pessoas</option>
+            <option value="3">3 Pessoas</option>
+            <option value="4">4 Pessoas</option>
+            <option value="5">5 Pessoas</option>
+            <option value="6">6 Pessoas</option>
+            <option value="7">7 Pessoas</option>
+            <option value="8">8 Pessoas</option>
+            <option value="9">9 Pessoas</option>
+            <option value="10">10 Pessoas</option>
+            <option value="11">11 Pessoas</option>
+            <option value="12">12 Pessoas</option>
+        </select></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Enviar Reserva"></td>
+        </table>
+        <br>
+        
+        </form>
+</body>
+</html>

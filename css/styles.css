@@ -1,0 +1,41 @@
+        h1 {
+            color: darkblue;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+        }
+        h2{
+            color: darkgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p{
+            padding:20px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        p:hover {
+            background-color: lightgray;
+            cursor:pointer;
+        }
+        h1:hover {
+            color: red;
+        }
+        #Vinhos {
+            color: purple;
+        }
+        .entradas{
+            color: orange;
+        }
+        .peixe{
+            color: teal;
+        }
+        .carne{
+            color: brown;
+        }
+        .sobremesa{
+            color: pink;
+        }
+        

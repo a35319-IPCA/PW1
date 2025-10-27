@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  border:2px solid black;
+margin-left: 20px;  
+margin-top: 20px;
+}
+
+th {
+  background-color: lightcyan;
+  font-size: large;
+  border: 2px solid black;
+}
+tr:hover{
+  background-color: lightgray;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul   {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: red;
+}
+ul.default {
+  all: revert;
+}
